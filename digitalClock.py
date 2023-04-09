@@ -14,7 +14,7 @@ import os
 app_window = Tk() 
 app_window.title("Digital Clock") 
 app_window.geometry("420x150") 
-app_window.resizable(1,1)
+app_window.resizable(False, False)
 
 #Makes a universal path for the favicon and then applies it to the application
 script_dir = os.path.dirname(os.path.abspath(__file__))
